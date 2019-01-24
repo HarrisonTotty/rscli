@@ -1,0 +1,10 @@
+[package]
+name = "rscli"
+version = "0.1.0"
+authors = ["Harrison Totty <harrisongtotty@gmail.com>"]
+edition = "2018"
+description = "The simple command-line interface for the rust programming language."
+
+[dependencies]
+clap = "2.32.0"
+rustyline = "3.0.0"
